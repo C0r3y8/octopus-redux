@@ -11,7 +11,7 @@ Package.describe({
 });
 
 const basePackages = {
-  all: [ 'c0r3y8:octopus', 'ecmascript', 'meteor' ]
+  all: [ 'c0r3y8:octopus@0.1.0', 'ecmascript', 'meteor' ]
 };
 
 const testPackages = [
@@ -53,7 +53,6 @@ Package.onTest(function (api) {
   api.use(basePackages.all);
   api.use(testPackages);
 
-  api.use('c0r3y8:octopus');
   api.use('c0r3y8:octopus-redux');
 
   api.addFiles('server/redux-tests.jsx', 'server');
