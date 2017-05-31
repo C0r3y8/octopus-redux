@@ -1,6 +1,6 @@
 Package.describe({
   name: 'c0r3y8:octopus-redux',
-  version: '0.1.0',
+  version: '0.1.2',
   // Brief, one-line summary of the package.
   summary: 'Redux module for Octopus',
   // URL to the Git repository containing the source code for this package.
@@ -11,7 +11,7 @@ Package.describe({
 });
 
 const basePackages = {
-  all: [ 'c0r3y8:octopus@0.1.0', 'ecmascript', 'meteor' ]
+  all: [ 'c0r3y8:octopus', 'ecmascript', 'meteor' ]
 };
 
 const testPackages = [
